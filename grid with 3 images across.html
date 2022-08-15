@@ -1,0 +1,54 @@
+<html>
+<head>
+
+<style>
+body {
+    background-color: pink;
+}
+h1 {
+    margin-left: auto;
+  margin-right: auto;
+display: flex;
+justify-content: center;
+border: 5px solid black;
+padding: 50px 0;
+
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . ."
+      "book1 book2 book3"
+      ". . .";
+  }
+  
+  .book1 { grid-area: book1; }
+  
+  .book2 { grid-area: book2; }
+  
+  .book3 { grid-area: book3; }
+  </style>
+  </head>
+
+  <body>
+    <h1>bookstore</h1>
+  <div class="container"> //make this the ul
+  <div class="book1"><img src ="https://i.ibb.co/DkPyp1y/crimebookcover.jpg" alt="crime book cover" /><br>Price and Quantity Buttons that change with Javascript</div>
+  <div class="book2"><img src ="https://i.ibb.co/w0RNbJR/biosmemoirsbookcover.jpg" alt="bios/memoirs book cover" /><br>Price and Quantity Buttons that change with Javascript</div>
+  <div class="book3"><img src ="https://i.ibb.co/vmQ7VqR/humorbookcover.jpg" alt="humor book cover" /><br>Price and Quantity Buttons that change with Javascript</div>
+</div>
+
+</body>
+</html>

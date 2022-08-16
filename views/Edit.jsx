@@ -27,6 +27,11 @@ class Edit extends React.Component {
                 Price: <input type="text" name="price" /><br/>
                     <input type="submit" name="" value="Edit book"/>
                 </form>
+                <br />
+<a href="/">Home</a><br />
+               <a href="/book">Back to the Book Store</a><br />
+              <a href="/book/new">Create a New book</a>
+
             </div>
         )
     }

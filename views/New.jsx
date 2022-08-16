@@ -44,7 +44,8 @@ const {book} = this.props
                  <input type="submit" name="" value="Create book"/>
                </form>
 <br />
-               <a href="/book">Back to the Index Page</a><br />
+<a href="/">Home</a><br />
+               <a href="/book">Back to the Book Store</a><br />
               <a href="/book/new">Create a New book</a>
 
            </div>

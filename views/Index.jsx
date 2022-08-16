@@ -57,7 +57,7 @@ const {book} = this.props
                         )
                     })}
                     </ul>
-
+                    <a href="/">Home</a><br />
                     <a href="/book">Back to the Book Store</a><br />
         <a href="/book/new">Create a New Book</a>
         

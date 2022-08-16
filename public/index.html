@@ -2,6 +2,9 @@
 <head>
   <title>Bookstore</title>
   <style> 
+  *{
+    background-color:#FFEAD0;
+  }
   .container {  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -57,6 +60,30 @@
   width: 150px;
   height: 150px;
 }
+
+.bottom {
+  background-color:#f76f8e;
+text-align: center;
+}
+
+a:link, a:visited {
+  background-color: #f76f8e;
+  color: white;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #8db600;
+}
+
+h1{
+
+  color: #f76f8e;
+text-align: center;
+}
   </style>
 </head>
 <body>
@@ -81,7 +108,7 @@
     <div class="referencestudy"><img src ="https://i.ibb.co/b3JPwsp/referencestudybookcover.jpg" alt="reference/study book cover" /></div>
     <div class="humor"><img src ="https://i.ibb.co/vmQ7VqR/humorbookcover.jpg" alt="humor book cover" /></div></div>
   </div>
-
+<div class="bottom"><a href="/book">Home</a> | <a href="/book">Book Store</a> | <a href="/book/new">Create a New Book</a> |<a href="/book/edit">Edit Books</a></div>
 
 
 

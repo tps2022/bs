@@ -34,13 +34,13 @@ app.use(express.urlencoded({extended:false}));
 app.use(methodOverride('_method'))
 
 //seed route - comment this out to hide it from the internet
-// app.get('/book/seed', async (req,res) => {
-//     //comment the line below if you don't want to delete your whole entire collection
-//     await Book.deleteMany({})
-//     //create a list of book into our database
-//    await Book.create(bookData) 
-//     res.redirect('/book')
-// })
+app.get('/book/seed', async (req,res) => {
+    //comment the line below if you don't want to delete your whole entire collection
+    await Book.deleteMany({})
+    //create a list of book into our database
+   await Book.create(bookData) 
+    res.redirect('/book')
+})
 
 app.get('/', (req, res) => {
     res.sendFile('public/index.html' , { root : __dirname});

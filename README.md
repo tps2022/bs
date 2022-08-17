@@ -22,10 +22,10 @@ https://bookherokuapp.herokuapp.com/
 ## Install
 **Clone the repo:**
 ```
-git clone https://github.com/tps2022/pe.git
+git clone https://github.com/tps2022/bs.git
 ```
 ```
-git pull https://github.com/tps2022/pe.git master
+git pull https://github.com/tps2022/bs.git master
 ```
 **Install packages:**
 *npm**

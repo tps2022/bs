@@ -5,7 +5,7 @@ A simple, scrappy app created to showcase understanding of building and deployin
 - Uses HTML, CSS, Javascript, Node.js, and Express.js
 - Deployed to Heroku
 
-**App Structure**:
+**App/API Structure**:
 | URL | HTTP Verb | Action | Notes
 | --- | --- | --- | --- | 
 | /book/ | GET | index | INDEX when a user types localhost:3000/book in browser this route shows a list or index of all book

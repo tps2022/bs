@@ -28,7 +28,7 @@ git clone https://github.com/tps2022/bs.git
 git pull https://github.com/tps2022/bs.git master
 ```
 **Install packages:**
-*npm**
+**npm**
 ```
 npm init -y
 ```

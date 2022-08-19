@@ -17,7 +17,7 @@ A simple, scrappy app created to showcase understanding of building and deployin
 |/book/:id | GET | show | SHOW when a user types localhost:3000/book/:idOfBook shows the user an Individualbook in the browser|
 
 ## Live
-https://bookherokuapp.herokuapp.com/
+https://bookstoreapptps2022.herokuapp.com/
 
 ## Install
 **Clone the repo:**

@@ -13,8 +13,8 @@ A simple, scrappy app created to showcase understanding of building and deployin
 |/book/:id | DELETE | destroy | DELETE initiates a delete request through a form submission with action = http://localhost:3000/book/:idOfBook and allows the application the ability to delete a book
 |/book/:id | PUT | update | UPDATE initiates a put request through a form submission with action = http://localhost:3000/book/:idOfBook and allows the application the ability to Updat edata about a book
 |/book | POST | create | CREATE initiates a post request through a form submission with action = http://localhost:3000/book/ and allows the application the ability to Create a book
-|/book/:id/edit | GET | edit | EDIT when a user types localhost:3000/book/:idOfBook/edit in browser shows the user a form to edit a book
-|/book/:id | GET | show | SHOW when a user types localhost:3000/book/:idOfBook shows the user an Individualbook in the browser|
+|/book/:id/edit | GET | edit | EDIT when a user types http://localhost:3000/book/:idOfBook/edit in browser shows the user a form to edit a book
+|/book/:id | GET | show | SHOW when a user types http://localhost:3000/book/:idOfBook shows the user an Individualbook in the browser|
 
 ## Live
 https://bookstoreapptps2022.herokuapp.com/
